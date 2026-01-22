@@ -56,7 +56,7 @@ If you use PMR in your work, please cite:
 ```
 @dataset{pmr2026,
 title = {PMR: Planetary Mission Rules Dataset},
-author = {Hayden Moore (hmm5731)},
+author = {Hayden Moore (hmm5731@psu.edu)},
 year = {2026},
 note = {Curated from NASA and ESA Planetary Data System mission documentation}
 }
