@@ -10,7 +10,7 @@ PMR focuses on rule-like statements describing mission phases, operational const
 
 ### PMR-100 (Initial Release)
 
-**PMR-100** is the initial public release of the dataset, intended for proof-of-concept evaluation and benchmarking.
+**PMR-100** is the initial release of the dataset
 
 **Scope**
 - 100 curated natural language statements
