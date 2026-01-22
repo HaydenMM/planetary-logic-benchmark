@@ -1,2 +1,64 @@
-# PMR
-Planetary Mission Rules (PMR)
+# PMR: Planetary Mission Rules Dataset
+
+PMR (Planetary Mission Rules) is a curated dataset of natural language mission documentation drawn from publicly available NASA and ESA Planetary Data System (PDS) archives. The dataset is designed to support research on interpretable, verifiable AI systems for translating mission-relevant natural language into structured logical representations.
+
+PMR focuses on rule-like statements describing mission phases, operational constraints, safety conditions, and system dependencies commonly found in planetary mission documentation.
+
+---
+
+## Dataset Variants
+
+### PMR-100 (Initial Release)
+
+**PMR-100** is the initial public release of the dataset, intended for proof-of-concept evaluation and benchmarking.
+
+**Scope**
+- 100 curated natural language statements
+- Extracted from NASA and ESA PDS mission documentation
+- Emphasis on clarity, interpretability, and logical structure
+
+**Content Characteristics**
+- Conditional statements (e.g., *if*, *only if*, *unless*)
+- Temporal and phase-based descriptions
+- Operational and safety-relevant language
+- Mission-level and system-level dependencies
+
+---
+
+
+## Data Sources
+
+PMR is curated from authoritative, publicly available sources, including:
+
+- NASA Planetary Data System (PDS)
+- NASA mission catalog and documentation bundles
+- ESA Planetary Science Archive (PSA)
+- Mission-level documentation for rover and orbiter missions (e.g., MER, MSL, Mars 2020, Mars Express)
+
+All source materials are non-sensitive and publicly accessible.
+
+---
+
+## Versioning
+
+- **PMR-100 v1.0** — Initial release
+
+---
+
+## Intended Use
+
+PMR is intended for research purposes
+
+## Citation
+
+If you use PMR in your work, please cite:
+
+```
+@dataset{pmr2026,
+title = {PMR: Planetary Mission Rules Dataset},
+author = {Hayden Moore (hmm5731)},
+year = {2026},
+note = {Curated from NASA and ESA Planetary Data System mission documentation}
+}
+```
+
