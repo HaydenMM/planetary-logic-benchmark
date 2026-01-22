@@ -4,7 +4,6 @@ PMR (Planetary Mission Rules) is a curated dataset of natural language mission d
 
 PMR focuses on rule-like statements describing mission phases, operational constraints, safety conditions, and system dependencies commonly found in planetary mission documentation.
 
----
 
 ## Dataset Variants
 
@@ -23,9 +22,6 @@ PMR focuses on rule-like statements describing mission phases, operational const
 - Operational and safety-relevant language
 - Mission-level and system-level dependencies
 
----
-
-
 ## Data Sources
 
 PMR is curated from authoritative, publicly available sources, including:
@@ -37,13 +33,9 @@ PMR is curated from authoritative, publicly available sources, including:
 
 All source materials are non-sensitive and publicly accessible.
 
----
-
 ## Versioning
 
 - **PMR-100 v1.0** — Initial release
-
----
 
 ## Intended Use
 
