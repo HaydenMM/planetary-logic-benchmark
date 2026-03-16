@@ -1,0 +1,726 @@
+{
+  "0": {
+    "nl": "Spirit (MER-2 hardware) was launched June 10, 2003, at 1759 UTC (1359 EDT) from launch complex 17A at Cape Canaveral Air Force Station, Florida.  The launch azimuth was 93 degrees.  The boost portion of the launch vehicle trajectory took approximately 10 minutes, and was followed by a short coast phase in a parking orbit for approximately 15 minutes.  After third stage burnout, the upper stage despun the stack using a yo-yo despin system. Separation of the third stage occurred approximately 36 minutes after launch.",
+    "fol": "∃e ( LaunchEvent(e) ∧ Agent(e,Spirit_MER2) ∧ DateUTC(e,'2003-06-10') ∧ TimeUTC(e,'17:59') ∧ LocalTime(e,'13:59') ∧ LocalTZ(e,'EDT') ∧ From(e,LaunchComplex17A) ∧ At(e,CapeCanaveralAFS) ∧ In(e,Florida) ∧ AzimuthDeg(e,93) ) ∧ ∃b ( BoostPhase(b) ∧ Agent(b,Spirit_MER2) ∧ StartsAfterMinutesApprox(b,e,0) ∧ DurationMinutesApprox(b,10) ) ∧ ∃c ( CoastPhase(c) ∧ Agent(c,Spirit_MER2) ∧ InOrbit(c,ParkingOrbit) ∧ StartsAfterMinutesApprox(c,b,0) ∧ DurationMinutesApprox(c,15) ∧ After(c,b) ) ∧ ∃d ( DespinEvent(d) ∧ Agent(d,Spirit_MER2) ∧ After(d,ThirdStageBurnout) ∧ Uses(d,YoYoDespinSystem) ∧ ActsOn(d,UpperStageStack) ) ∧ ∃s ( ThirdStageSeparation(s) ∧ Agent(s,Spirit_MER2) ∧ AfterMinutesApprox(s,e,36) )",
+    "predicates": [
+      "LaunchEvent/1",
+      "Agent/2",
+      "DateUTC/2",
+      "TimeUTC/2",
+      "LocalTime/2",
+      "LocalTZ/2",
+      "From/2",
+      "At/2",
+      "In/2",
+      "AzimuthDeg/2",
+      "BoostPhase/1",
+      "StartsAfterMinutesApprox/3",
+      "DurationMinutesApprox/2",
+      "CoastPhase/1",
+      "InOrbit/2",
+      "After/2",
+      "DespinEvent/1",
+      "Uses/2",
+      "ActsOn/2",
+      "ThirdStageSeparation/1"
+    ],
+    "constants": {
+      "entities": [
+        "Spirit_MER2",
+        "LaunchComplex17A",
+        "CapeCanaveralAFS",
+        "Florida",
+        "ParkingOrbit",
+        "YoYoDespinSystem",
+        "UpperStageStack",
+        "ThirdStageBurnout"
+      ],
+      "date_literals": [
+        "2003-06-10"
+      ],
+      "time_literals": [
+        "17:59",
+        "13:59"
+      ],
+      "tz_literals": [
+        "EDT"
+      ],
+      "numbers": [
+        0,
+        10,
+        15,
+        93,
+        36
+      ]
+    },
+    "ref": "https://pds-imaging.jpl.nasa.gov/portal/mer_mission.html"
+  },
+  "1": {
+    "nl": "Opportunity (MER-1 hardware) was launched July 8, 2003, at 0318 UTC (July 7, 2003, 2318 EDT) from launch complex 17B at Cape Canaveral Air Force Station, Florida. The launch azimuth was 99 degrees. The boost portion of the launch vehicle trajectory took approximately 9 minutes, and was followed by a long coast phase of approximately 60 minutes in a parking orbit. After third stage burnout, the upper stage despun the stack using a yo-yo despin system. Separation of the third stage occurred approximately 83 minutes after launch.",
+    "fol": "∃e ( LaunchEvent(e) ∧ Agent(e,Opportunity_MER1) ∧ DateUTC(e,'2003-07-08') ∧ TimeUTC(e,'03:18') ∧ LocalTime(e,'23:18') ∧ LocalTZ(e,'EDT') ∧ From(e,LaunchComplex17B) ∧ At(e,CapeCanaveralAFS) ∧ In(e,Florida) ∧ AzimuthDeg(e,99) ) ∧ ∃b ( BoostPhase(b) ∧ Agent(b,Opportunity_MER1) ∧ StartsAfterMinutesApprox(b,e,0) ∧ DurationMinutesApprox(b,9) ) ∧ ∃c ( CoastPhase(c) ∧ Agent(c,Opportunity_MER1) ∧ InOrbit(c,ParkingOrbit) ∧ StartsAfterMinutesApprox(c,b,0) ∧ DurationMinutesApprox(c,60) ∧ After(c,b) ) ∧ ∃d ( DespinEvent(d) ∧ Agent(d,Opportunity_MER1) ∧ After(d,ThirdStageBurnout) ∧ Uses(d,YoYoDespinSystem) ∧ ActsOn(d,UpperStageStack) ) ∧ ∃s ( ThirdStageSeparation(s) ∧ Agent(s,Opportunity_MER1) ∧ AfterMinutesApprox(s,e,83) )",
+    "predicates": [
+      "LaunchEvent/1",
+      "Agent/2",
+      "DateUTC/2",
+      "TimeUTC/2",
+      "LocalTime/2",
+      "LocalTZ/2",
+      "From/2",
+      "At/2",
+      "In/2",
+      "AzimuthDeg/2",
+      "BoostPhase/1",
+      "StartsAfterMinutesApprox/3",
+      "DurationMinutesApprox/2",
+      "CoastPhase/1",
+      "InOrbit/2",
+      "After/2",
+      "DespinEvent/1",
+      "Uses/2",
+      "ActsOn/2",
+      "ThirdStageSeparation/1"
+    ],
+    "constants": {
+      "entities": [
+        "Opportunity_MER1",
+        "LaunchComplex17B",
+        "CapeCanaveralAFS",
+        "Florida",
+        "ParkingOrbit",
+        "YoYoDespinSystem",
+        "UpperStageStack",
+        "ThirdStageBurnout"
+      ],
+      "date_literals": [
+        "2003-07-08"
+      ],
+      "time_literals": [
+        "03:18",
+        "23:18"
+      ],
+      "tz_literals": [
+        "EDT"
+      ],
+      "numbers": [
+        0,
+        9,
+        60,
+        99,
+        83
+      ]
+    },
+    "ref": "https://pds-imaging.jpl.nasa.gov/portal/mer_mission.html"
+  },
+  "2": {
+    "nl": "the Chandrayaan-1 mission: The Launch and Early Orbit phase and the Lunar Orbit phase.  The Launch and Early Orbit Phase extended from the launch of the spacecraft from the SDSC in Sriharikota, India, at 00:51 UT on 22 October 2008. This phase starts from lift-off and ends with lunar capture. Orbit raising maneuvers and transmitting X-band data through the stowed DGA are the major activities during this phase. During other major activities, the spacecraft was kept at single inertial attitude due to power, thermal, and communication link constraints. The RADOM instrument was turned on during the first transfer orbit and was kept on continuously. Three images were taken by TMC during en route: the Australian sector of Earth at 02:38 UT on 29 October 2008, the crescent Earth at 07:29 UT on 29 October 2008, after burn #4, and the crescent Moon at 08:25 UT on 4 November 2008, after burn #5.   The sphere of influence occurred around 18:05:30 on 7 November 2008. The Lunar Orbit Insertion maneuver was carried out at 11:20:46 on 8 November 2008 to put the spacecraft into an elliptical orbit (500 x 7500 km) around Moon. The orbit was later circularized to 100 x 100 km after four lunar burns.",
+    "fol": "∃p1 ∃p2 ( MissionPhase(p1) ∧ MissionPhase(p2) ∧ Name(p1,LaunchEarlyOrbitPhase) ∧ Name(p2,LunarOrbitPhase) ∧ PartOf(p1,Chandrayaan1) ∧ PartOf(p2,Chandrayaan1) ) ∧ ∃e ( LaunchEvent(e) ∧ Agent(e,Chandrayaan1) ∧ From(e,SDSC_Sriharikota) ∧ In(e,India) ∧ DateUTC(e,'2008-10-22') ∧ TimeUTC(e,'00:51') ) ∧ StartsFrom(p1,LiftOff) ∧ EndsWith(p1,LunarCapture) ∧ ∃o ( OrbitRaisingManeuver(o) ∧ During(o,p1) ) ∧ ∃x ( XBandTransmission(x) ∧ During(x,p1) ∧ Uses(x,StowedDGA) ) ∧ ∃a ( SingleInertialAttitude(a) ∧ During(a,p1) ) ∧ ∃r ( InstrumentOn(r) ∧ Instrument(r,RADOM) ∧ During(r,FirstTransferOrbit) ∧ Continuous(r) ) ∧ ∃i1 ∃i2 ∃i3 ( ImageTaken(i1) ∧ ImageTaken(i2) ∧ ImageTaken(i3) ∧ Instrument(i1,TMC) ∧ Instrument(i2,TMC) ∧ Instrument(i3,TMC) ∧ Target(i1,Earth_AustralianSector) ∧ TimeUTC(i1,'02:38') ∧ DateUTC(i1,'2008-10-29') ∧ Target(i2,CrescentEarth) ∧ TimeUTC(i2,'07:29') ∧ DateUTC(i2,'2008-10-29') ∧ After(i2,Burn4) ∧ Target(i3,CrescentMoon) ∧ TimeUTC(i3,'08:25') ∧ DateUTC(i3,'2008-11-04') ∧ After(i3,Burn5) ) ∧ ∃s ( SphereOfInfluenceEvent(s) ∧ Agent(s,Chandrayaan1) ∧ TimeUTC(s,'18:05:30') ∧ DateUTC(s,'2008-11-07') ) ∧ ∃l ( LunarOrbitInsertion(l) ∧ Agent(l,Chandrayaan1) ∧ TimeUTC(l,'11:20:46') ∧ DateUTC(l,'2008-11-08') ∧ ResultsIn(l,EllipticalOrbit_500x7500km) ) ∧ ∃c ( OrbitCircularization(c) ∧ ResultsIn(c,CircularOrbit_100x100km) ∧ AfterBurns(c,4) )",
+    "predicates": [
+      "MissionPhase/1",
+      "Name/2",
+      "PartOf/2",
+      "LaunchEvent/1",
+      "Agent/2",
+      "From/2",
+      "In/2",
+      "DateUTC/2",
+      "TimeUTC/2",
+      "StartsFrom/2",
+      "EndsWith/2",
+      "OrbitRaisingManeuver/1",
+      "During/2",
+      "XBandTransmission/1",
+      "Uses/2",
+      "SingleInertialAttitude/1",
+      "InstrumentOn/1",
+      "Instrument/2",
+      "Continuous/1",
+      "ImageTaken/1",
+      "Target/2",
+      "After/2",
+      "SphereOfInfluenceEvent/1",
+      "LunarOrbitInsertion/1",
+      "ResultsIn/2",
+      "OrbitCircularization/1",
+      "AfterBurns/2"
+    ],
+    "constants": {
+      "entities": [
+        "Chandrayaan1",
+        "LaunchEarlyOrbitPhase",
+        "LunarOrbitPhase",
+        "SDSC_Sriharikota",
+        "India",
+        "LiftOff",
+        "LunarCapture",
+        "StowedDGA",
+        "RADOM",
+        "FirstTransferOrbit",
+        "TMC",
+        "Earth_AustralianSector",
+        "CrescentEarth",
+        "CrescentMoon",
+        "Burn4",
+        "Burn5",
+        "EllipticalOrbit_500x7500km",
+        "CircularOrbit_100x100km"
+      ],
+      "date_literals": [
+        "2008-10-22",
+        "2008-10-29",
+        "2008-11-04",
+        "2008-11-07",
+        "2008-11-08"
+      ],
+      "time_literals": [
+        "00:51",
+        "02:38",
+        "07:29",
+        "08:25",
+        "18:05:30",
+        "11:20:46"
+      ],
+      "numbers": [
+        4,
+        500,
+        7500,
+        100
+      ]
+    },
+    "ref": "https://pds-imaging.jpl.nasa.gov/portal/chandrayaan-1_mission.html"
+  },
+  "3": {
+    "nl": "The Launch phase starts at L-40 min (Launch-40 min), and covers the interval from launch, through initial ground station acquisition, until the establishment of a pre-defined, stable, and slowly changing Sun-pointed attitude when cruise attitude control algorithms and ephemerides can be used. The end of the Launch phase is determined by post-launch health and safety assessments. The boundary is at L+3 days, after initial acquisition and after confirmation that the Flight System is safe and in a power-positive, thermally stable, and commandable attitude. The Inner Cruise 1 phase lasts from post-Launch establishment of a pre-defined and stable Sun-pointed attitude when cruise attitude control algorithms and ephemerides can be used, until after initial spacecraft and instrument checkouts have been performed and the spacecraft has gotten far enough from the Sun to allow Earth-pointing instead of Sun-pointing. TCM 1 (the first planned trajectory correction maneuver) was deemed not necessary, hence, was not executed. The phase spans the interval from L+3 to L+66 days. The Inner Cruise 2 phase spans the period from L+66 days until L+663 days. The Deep Space Maneuvers (DSMs) occur during this phase, near aphelion of Juno's first orbit about the Sun, on the way to Earth Flyby and then Jupiter. There is increased DSN (Deep Space Network) coverage associated with the DSMs and a cleanup TCM. DSMs 1 and 2 occur on 2012-08-30 and 2010-09-14. The Inner Cruise 3 phase spans the interval from L+663 days to L+823 days. The duration of this cruise phase is 160 days. Featured in this phase is Earth Flyby (EFB), which gives Juno a gravity assist (providing 7.3 km/s of deltaV) on its way to Jupiter. It occurs as the spacecraft is completing one elliptical orbit around the Sun and includes perihelion. Three TCMs were planned before EFB (the last of which was deemed not necessary) and one after EFB. There is increased DSN coverage associated with the 4 maneuvers and EFB. The Inner Cruise 3 phase is focused on performing the required maneuvers, as well as an integrated operations exercise around Earth Flyby, subject to Flight System constraints. Closest approach to Earth occurs on 2013-10-09 at 19:21 UTC. The Outer Cruise phase lasts from L+823 days until the start of Jupiter Approach at Jupiter Orbit Insertion (JOI)-6 months (JOI-182 days or L+1614 days). The duration of this cruise phase is 791 days, which is over 2 years.",
+    "fol": "∃pL ( LaunchPhase(pL) ∧ StartsAt(pL,L_minus_40min) ∧ EndsAt(pL,L_plus_3days) ) ∧ ∃p1 ( InnerCruise1Phase(p1) ∧ StartsAt(p1,L_plus_3days) ∧ EndsAt(p1,L_plus_66days) ) ∧ ¬∃tcm1 ( TCM(tcm1) ∧ Index(tcm1,1) ∧ Executed(tcm1) ) ∧ ∃p2 ( InnerCruise2Phase(p2) ∧ StartsAt(p2,L_plus_66days) ∧ EndsAt(p2,L_plus_663days) ) ∧ ∃d1 ∃d2 ( DSM(d1) ∧ DSM(d2) ∧ DateUTC(d1,'2012-08-30') ∧ DateUTC(d2,'2010-09-14') ) ∧ ∃p3 ( InnerCruise3Phase(p3) ∧ StartsAt(p3,L_plus_663days) ∧ EndsAt(p3,L_plus_823days) ∧ DurationDays(p3,160) ) ∧ ∃e ( EarthFlyby(e) ∧ DeltaV_km_s(e,7.3) ) ∧ ∃ca ( ClosestApproachEarth(ca) ∧ DateUTC(ca,'2013-10-09') ∧ TimeUTC(ca,'19:21') ) ∧ ∃pO ( OuterCruisePhase(pO) ∧ StartsAt(pO,L_plus_823days) ∧ EndsAt(pO,L_plus_1614days) ∧ DurationDays(pO,791) )",
+    "predicates": [
+      "LaunchPhase/1",
+      "InnerCruise1Phase/1",
+      "InnerCruise2Phase/1",
+      "InnerCruise3Phase/1",
+      "OuterCruisePhase/1",
+      "StartsAt/2",
+      "EndsAt/2",
+      "TCM/1",
+      "Index/2",
+      "Executed/1",
+      "DSM/1",
+      "DateUTC/2",
+      "DurationDays/2",
+      "EarthFlyby/1",
+      "DeltaV_km_s/2",
+      "ClosestApproachEarth/1",
+      "TimeUTC/2"
+    ],
+    "constants": {
+      "entities": [
+        "L_minus_40min",
+        "L_plus_3days",
+        "L_plus_66days",
+        "L_plus_663days",
+        "L_plus_823days",
+        "L_plus_1614days"
+      ],
+      "date_literals": [
+        "2012-08-30",
+        "2010-09-14",
+        "2013-10-09"
+      ],
+      "time_literals": [
+        "19:21"
+      ],
+      "numbers": [
+        1,
+        160,
+        791,
+        7.3
+      ]
+    },
+    "ref": "https://pds-imaging.jpl.nasa.gov/portal/juno_mission.html"
+  },
+  "4": {
+    "nl": "The Deorbit phase occurs during the final perijove-to-perijove orbit of the mission.  The 7-day phase starts several days after the Orbit 36 perijove science pass (part of the extra orbit) at AJ36-1h, before the start of the apojove deorbit maneuver (by which time we hope to have all or most of the PJ36 data on the ground).  It continues through AJ36, and ends with Impact into Jupiter at PJ37. In order to meet planetary protection requirements and ensure that we do not impact Europa (as well as Ganymede and Callisto), the spacecraft performs a deorbit maneuver near apojove that reduces our orbital velocity and sends us to a perijove below Jupiter's cloud tops. The mean burn deltaV of 77 m/s is the largest maneuver of the mission after the 4 main engine maneuvers, and is planned to be performed on RCS (Reaction Control System) thrusters (deltaV to Earth angle, ELA ~ 70 degrees). The timing of the burn is not mission critical; a contingency delayed execution can occur several days around and following apojove if necessary.  Impact into Jupiter marks End of Mission (EOM).",
+    "fol": "∃pD (DeorbitPhase(pD) ∧ DurationDays(pD,7) ∧ StartsAt(pD,AJ36_minus_1hour) ∧ EndsAt(pD,PJ37) ∧ During(pD,FinalPerijoveToPerijoveOrbit)) ∧ ∃sp (PerijoveSciencePass(sp) ∧ Index(sp,36) ∧ Before(sp,AJ36_minus_1hour)) ∧ ∃imp (ImpactIntoJupiter(imp) ∧ At(imp,PJ37) ∧ Marks(imp,EOM)) ∧ ∃dm (DeorbitManeuver(dm) ∧ Maneuver(dm) ∧ Near(dm,Apojove) ∧ During(dm,pD) ∧ Reduces(dm,OrbitalVelocity) ∧ SendsTo(dm,PerijoveBelowCloudTops) ∧ DeltaV_m_s(dm,77) ∧ Uses(dm,RCS_Thrusters) ∧ ELA_DegApprox(dm,70)) ∧ ∃pp (PlanetaryProtectionRequirement(pp) ∧ EnsuresNoImpact(pp,Europa) ∧ EnsuresNoImpact(pp,Ganymede) ∧ EnsuresNoImpact(pp,Callisto)) ∧ ∃cd (ContingencyDelayedExecution(cd) ∧ For(cd,dm) ∧ OccursDaysAroundAndFollowing(cd,Apojove))",
+    "predicates": [
+      "DeorbitPhase/1",
+      "DurationDays/2",
+      "StartsAt/2",
+      "EndsAt/2",
+      "During/2",
+      "PerijoveSciencePass/1",
+      "Index/2",
+      "Before/2",
+      "ImpactIntoJupiter/1",
+      "At/2",
+      "Marks/2",
+      "DeorbitManeuver/1",
+      "Maneuver/1",
+      "Near/2",
+      "Reduces/2",
+      "SendsTo/2",
+      "DeltaV_m_s/2",
+      "Uses/2",
+      "ELA_DegApprox/2",
+      "PlanetaryProtectionRequirement/1",
+      "EnsuresNoImpact/2",
+      "ContingencyDelayedExecution/1",
+      "For/2",
+      "OccursDaysAroundAndFollowing/2"
+    ],
+    "constants": {
+      "entities": [
+        "AJ36_minus_1hour",
+        "AJ36",
+        "PJ37",
+        "FinalPerijoveToPerijoveOrbit",
+        "Apojove",
+        "OrbitalVelocity",
+        "PerijoveBelowCloudTops",
+        "RCS_Thrusters",
+        "Europa",
+        "Ganymede",
+        "Callisto",
+        "EOM"
+      ],
+      "numbers": [
+        7,
+        36,
+        77,
+        70
+      ]
+    },
+    "ref": "https://pds-imaging.jpl.nasa.gov/portal/juno_mission.html"
+  },
+  "5": {
+    "nl": "The Jupiter Approach phase lasts the final 6 months of cruise before Jupiter Orbit Insertion and is an opportunity for final Flight System and instrument checkouts as well as science observations to start exercising the ground system and Flight System, although orbit insertion preparations limit instrument activities close to JOI. There are more frequent maneuvers approaching JOI, starting with a TCM at JOI-5 months, and correspondingly increasing DSN coverage. The 178-day Jupiter Approach phase is preceded by a 26-month Outer Cruise phase. Jupiter Approach starts 3 months after the project is fully staffed up in preparation for JOI and the 1.3 years of science orbits. The phase ends at JOI-4 days, which is the start of the JOI critical sequence. The JOI phase encompasses the JOI critical sequence. It begins 4 days before the start of the orbit insertion maneuver and ends 1 hour after the start. JOI, the second critical event of the mission, occurs at closest approach to Jupiter, and slows the spacecraft enough to let it be captured by Jupiter into a 53.5-day orbit and set up the geometry for the 14-day science orbits. A cleanup burn at JOI+8.6d during the Capture Orbits phase is required to clean up JOI maneuver execution errors. DSN coverage is continuous during the JOI phase. The Capture Orbits phase starts at JOI+1h, after the end of the JOI critical sequence, and ends at PRM-5.25d, when instruments are off in preparation for the PRM maneuver. Between the two 53.5d capture orbits is PJ1 (Perijove 1), at which no maneuver is planned so it can be used as the first opportunity for science close to Jupiter and an opportunity to test the performance of the instruments in the Jupiter environment. A JOI cleanup maneuver at JOI+8.6d is required to clean up JOI maneuver execution errors, while additional maneuvers near the first apojove following JOI and at PJ1+14d ensure the timing of PJ1 and the large PRM burn at perijove of the following orbit. Solar conjunction occurs after apojove of the second capture orbit. DSN coverage remains continuous until the JOI+8.6d maneuver, then remains at elevated levels throughout the two capture orbits, and is continuous again around PJ1 and before PRM. Instruments are on for most of the Capture Orbits, and there are routine checkouts and science observations.",
+    "fol": "∃pJA ( JupiterApproachPhase(pJA) ∧ DurationDays(pJA,178) ∧ EndsAt(pJA,JOI_minus_4days) ) ∧ PrecededBy(pJA,OuterCruise_26months) ∧ ∃t ( TCM(t) ∧ StartsAt(t,JOI_minus_5months) ∧ During(t,pJA) ) ∧ ∃j ( JOIPhase(j) ∧ StartsAt(j,JOI_minus_4days) ∧ EndsAt(j,JOI_plus_1hour) ) ∧ ∃e ( JupiterOrbitInsertion(e) ∧ ClosestApproachJupiter(e) ∧ ResultsIn(e,CaptureOrbit_53_5days) ) ∧ ∃cb ( CleanupBurn(cb) ∧ StartsAt(cb,JOI_plus_8_6days) ) ∧ Continuous(DSNCoverage,j) ∧ ∃pC ( CaptureOrbitsPhase(pC) ∧ StartsAt(pC,JOI_plus_1hour) ∧ EndsAt(pC,PRM_minus_5_25days) ) ∧ ∃pj1 ( Perijove1(pj1) ∧ NoManeuver(pj1) ) ∧ ∃m1 ∃m2 ( Maneuver(m1) ∧ Near(m1,FirstApojoveAfterJOI) ∧ Maneuver(m2) ∧ StartsAt(m2,PJ1_plus_14days) ) ∧ ∃prm ( PRMBurn(prm) ) ∧ OccursAfter(SolarConjunction,SecondCaptureOrbitApojove) ∧ ∃ro ∃so ( RoutineCheckouts(ro) ∧ ScienceObservations(so) ∧ During(ro,pC) ∧ During(so,pC) )",
+    "predicates": [
+      "JupiterApproachPhase/1",
+      "DurationDays/2",
+      "EndsAt/2",
+      "PrecededBy/2",
+      "TCM/1",
+      "StartsAt/2",
+      "During/2",
+      "JOIPhase/1",
+      "JupiterOrbitInsertion/1",
+      "ClosestApproachJupiter/1",
+      "ResultsIn/2",
+      "CleanupBurn/1",
+      "Continuous/2",
+      "CaptureOrbitsPhase/1",
+      "Perijove1/1",
+      "NoManeuver/1",
+      "Maneuver/1",
+      "Near/2",
+      "PRMBurn/1",
+      "OccursAfter/2",
+      "RoutineCheckouts/1",
+      "ScienceObservations/1"
+    ],
+    "constants": {
+      "entities": [
+        "JOI_minus_4days",
+        "JOI_minus_5months",
+        "JOI_plus_1hour",
+        "JOI_plus_8_6days",
+        "PJ1_plus_14days",
+        "PRM_minus_5_25days",
+        "OuterCruise_26months",
+        "CaptureOrbit_53_5days",
+        "FirstApojoveAfterJOI",
+        "SecondCaptureOrbitApojove",
+        "SolarConjunction",
+        "DSNCoverage"
+      ],
+      "numbers": [
+        178,
+        53.5,
+        14,
+        8.6,
+        5.25
+      ]
+    },
+    "ref": "https://pds-imaging.jpl.nasa.gov/portal/juno_mission.html"
+  },
+  "6": {
+    "nl": "The launch phase began with launch vehicle lift-off and lasted about 90 minutes until payload separation. The payload had achieved the trans-lunar trajectory. The early cruise phase began with payload separation and lasted about 90 minutes until observing mode began. The orbiter performed Sun acquisition, ground acquisition, and deployments. Initial planning for a mid-course correction (MCC) occurred during this phase. The mid-cruise phase began with observing mode and lasted about a day until completion of the mid-course correction (MCC). During this phase propulsion checks were performed, final MCC planning was done, and the MCC was executed. The late cruise phase began with completion of the mid-course correction (MCC) and lasted until the lunar orbit insertion (LOI) sequence began. During this phase the CRaTER and LEND instruments performed early activation tasks, the orbiter underwent functional checks, and LOI planning was done. The lunar orbit acquisition phase began with the start of the lunar orbit insertion (LOI) sequence and lasted until the commissioning orbit was attained. The commissioning phase began with attainment of the 30x216 km commissioning orbit and lasted until the mission orbit was achieved. During this phase orbiter and instrument checks and calibrations were performed and the orbit was adjusted to the mission orbit. The nominal mission phase began with the attainment of the mission orbit and is planned to last for 1 year. During this phase routine operations, non-routine operations, and measurement data processing are performed.",
+    "fol": "∃pL ( LaunchPhase(pL) ∧ StartsWith(pL,LiftOff) ∧ DurationMinutesApprox(pL,90) ∧ EndsWith(pL,PayloadSeparation) ) ∧ Achieved(Payload,TransLunarTrajectory) ∧ ∃pE ( EarlyCruisePhase(pE) ∧ StartsWith(pE,PayloadSeparation) ∧ DurationMinutesApprox(pE,90) ∧ EndsWith(pE,ObservingMode) ) ∧ ∃s ∃g ∃d ( SunAcquisition(s) ∧ GroundAcquisition(g) ∧ Deployment(d) ∧ During(s,pE) ∧ During(g,pE) ∧ During(d,pE) ) ∧ ∃mccp ( MCCPlanning(mccp) ∧ During(mccp,pE) ) ∧ ∃pM ( MidCruisePhase(pM) ∧ StartsWith(pM,ObservingMode) ∧ DurationDaysApprox(pM,1) ∧ EndsWith(pM,MCCCompletion) ) ∧ ∃pc ∃fm ∃me ( PropulsionCheck(pc) ∧ FinalMCCPlanning(fm) ∧ MCCExecution(me) ∧ During(pc,pM) ∧ During(fm,pM) ∧ During(me,pM) ) ∧ ∃pLC ( LateCruisePhase(pLC) ∧ StartsWith(pLC,MCCCompletion) ∧ EndsWith(pLC,LOISequenceStart) ) ∧ ∃c1 ∃l1 ∃fc ∃lp ( InstrumentActivation(c1) ∧ InstrumentActivation(l1) ∧ Instrument(c1,CRaTER) ∧ Instrument(l1,LEND) ∧ FunctionalCheck(fc) ∧ LOIPlanning(lp) ∧ During(c1,pLC) ∧ During(l1,pLC) ∧ During(fc,pLC) ∧ During(lp,pLC) ) ∧ ∃pLOA ( LunarOrbitAcquisitionPhase(pLOA) ∧ StartsWith(pLOA,LOISequenceStart) ∧ EndsWith(pLOA,CommissioningOrbitAttained) ) ∧ ∃pC ( CommissioningPhase(pC) ∧ StartsWith(pC,Orbit30x216km) ∧ EndsWith(pC,MissionOrbitAchieved) ) ∧ ∃oc ∃ic ∃cal ∃oa ( OrbiterCheck(oc) ∧ InstrumentCheck(ic) ∧ Calibration(cal) ∧ OrbitAdjustment(oa) ∧ During(oc,pC) ∧ During(ic,pC) ∧ During(cal,pC) ∧ During(oa,pC) ) ∧ ∃pN ( NominalMissionPhase(pN) ∧ StartsWith(pN,MissionOrbitAchieved) ∧ DurationYears(pN,1) ) ∧ ∃ro ∃nro ∃md ( RoutineOperations(ro) ∧ NonRoutineOperations(nro) ∧ MeasurementDataProcessing(md) ∧ During(ro,pN) ∧ During(nro,pN) ∧ During(md,pN) )",
+    "predicates": [
+      "LaunchPhase/1",
+      "EarlyCruisePhase/1",
+      "MidCruisePhase/1",
+      "LateCruisePhase/1",
+      "LunarOrbitAcquisitionPhase/1",
+      "CommissioningPhase/1",
+      "NominalMissionPhase/1",
+      "StartsWith/2",
+      "EndsWith/2",
+      "DurationMinutesApprox/2",
+      "DurationDaysApprox/2",
+      "DurationYears/2",
+      "Achieved/2",
+      "During/2",
+      "SunAcquisition/1",
+      "GroundAcquisition/1",
+      "Deployment/1",
+      "MCCPlanning/1",
+      "PropulsionCheck/1",
+      "FinalMCCPlanning/1",
+      "MCCExecution/1",
+      "InstrumentActivation/1",
+      "Instrument/2",
+      "FunctionalCheck/1",
+      "LOIPlanning/1",
+      "OrbiterCheck/1",
+      "InstrumentCheck/1",
+      "Calibration/1",
+      "OrbitAdjustment/1",
+      "RoutineOperations/1",
+      "NonRoutineOperations/1",
+      "MeasurementDataProcessing/1"
+    ],
+    "constants": {
+      "entities": [
+        "LiftOff",
+        "PayloadSeparation",
+        "TransLunarTrajectory",
+        "ObservingMode",
+        "MCCCompletion",
+        "LOISequenceStart",
+        "CommissioningOrbitAttained",
+        "Orbit30x216km",
+        "MissionOrbitAchieved",
+        "CRaTER",
+        "LEND",
+        "Payload"
+      ],
+      "numbers": [
+        90,
+        1
+      ]
+    },
+    "ref": "https://pds-imaging.jpl.nasa.gov/portal/lro_mission.html"
+  },
+  "7": {
+    "nl": "The Mars Reconnaissance Orbiter Mission: The baseline launch vehicle for the MRO mission was the Lockheed-Martin Atlas V 401. This launch vehicle was selected by NASA-KSC (Kennedy Space Flight Center) via a competitive procurement under the NASA Launch Services (NLS) contract. The Atlas V 401 was a two-stage launch vehicle consisting of the Atlas Common Core Booster and a single engine Centaur upper stage. The Centaur upper stage could perform multiple restarts of its main engine. For precise pointing and control during coast and powered flight, the Centaur used a flight control system that was 3-axis stabilized. The Atlas large payload fairing was used to protect MRO during the Atlas boost phase. This fairing had a diameter of 4.2m and a length of 12.2m. The launch and injection of MRO occured during the Mars opportunity of August 2005. The Atlas booster, in combination with the Centaur upper stage, delivered the MRO spacecraft into a targeted parking orbit. After a short coast, a restart of the Centaur upper stage injected MRO onto an interplanetary transfer trajectory. Duration: About five months. The cruise phase extended from DSN initial acquisition, in a safe and stable configuration, until two months prior to the Mars Orbit Insertion (MOI) maneuver. Primary activities during cruise included spacecraft and payload checkout and calibration. These activities, along with daily monitoring of orbiter subsystems, were performed in order to fully characterize the performance of the spacecraft and its payload prior to arrival at Mars. In addition, standard navigation activities were performed during this flight phase, the first being the largest TCM performed fifteen days after launch.",
+    "fol": "Mission(MROMission) ∧ ∃lv ( LaunchVehicle(lv) ∧ Name(lv,'Lockheed-Martin Atlas V 401') ∧ BaselineLaunchVehicleFor(lv,MROMission) ) ∧ ∃sel ( SelectedBy(sel,NASA_KSC) ∧ Selected(sel,lv) ∧ UnderContract(sel,NLSContract) ∧ Via(sel,CompetitiveProcurement) ) ∧ TwoStage(lv) ∧ ∃ccb ∃cent ( Stage(ccb) ∧ Stage(cent) ∧ Name(ccb,AtlasCommonCoreBooster) ∧ Name(cent,CentaurUpperStage) ∧ ConsistsOf(lv,ccb) ∧ ConsistsOf(lv,cent) ) ∧ ∃rst ( MultipleRestartsCapability(rst) ∧ Of(rst,CentaurMainEngine) ) ∧ ∃fcs ( FlightControlSystem(fcs) ∧ UsedBy(fcs,CentaurUpperStage) ∧ StabilizationAxisCount(fcs,3) ∧ UsedFor(fcs,PrecisePointingAndControl) ∧ During(fcs,CoastAndPoweredFlight) ) ∧ ∃pf ( PayloadFairing(pf) ∧ UsedToProtect(pf,MROSpacecraft) ∧ During(pf,AtlasBoostPhase) ∧ DiameterMeters(pf,4.2) ∧ LengthMeters(pf,12.2) ) ∧ ∃li ( LaunchAndInjectionEvent(li) ∧ Agent(li,MROSpacecraft) ∧ OccursDuringMonth(li,'2005-08') ) ∧ ∃po ( ParkingOrbit(po) ∧ Targeted(po) ∧ DeliveredInto(MROSpacecraft,po) ∧ DeliveredBy(MROSpacecraft,lv) ) ∧ ∃cr ( CoastPhase(cr) ∧ Short(cr) ∧ After(cr,po) ) ∧ ∃inj ( InjectionEvent(inj) ∧ Agent(inj,MROSpacecraft) ∧ After(inj,cr) ∧ CausedBy(inj,CentaurRestart) ∧ IntoTrajectory(inj,InterplanetaryTransferTrajectory) ) ∧ ∃pCruise ( CruisePhase(pCruise) ∧ DurationMonthsApprox(pCruise,5) ∧ StartsWith(pCruise,DSNInitialAcquisition) ∧ InConfiguration(pCruise,SafeStableConfiguration) ∧ EndsAtOffsetBefore(pCruise,MOIManeuver,Months,2) ) ∧ ∃act1 ∃act2 ( Checkout(act1) ∧ Calibration(act2) ∧ IncludesActivity(pCruise,act1) ∧ IncludesActivity(pCruise,act2) ∧ Of(act1,SpacecraftAndPayload) ∧ Of(act2,SpacecraftAndPayload) ) ∧ ∃mon ( DailyMonitoring(mon) ∧ Of(mon,OrbiterSubsystems) ∧ During(mon,pCruise) ) ∧ ∃nav ( NavigationActivities(nav) ∧ During(nav,pCruise) ) ∧ ∃tcm ( TCM(tcm) ∧ LargestTCM(tcm) ∧ PerformedAfterDays(tcm,LaunchEvent_MRO,15) )",
+    "predicates": [
+      "Mission/1",
+      "LaunchVehicle/1",
+      "Name/2",
+      "BaselineLaunchVehicleFor/2",
+      "SelectedBy/2",
+      "Selected/2",
+      "UnderContract/2",
+      "Via/2",
+      "TwoStage/1",
+      "Stage/1",
+      "ConsistsOf/2",
+      "MultipleRestartsCapability/1",
+      "Of/2",
+      "FlightControlSystem/1",
+      "UsedBy/2",
+      "StabilizationAxisCount/2",
+      "UsedFor/2",
+      "During/2",
+      "PayloadFairing/1",
+      "UsedToProtect/2",
+      "DiameterMeters/2",
+      "LengthMeters/2",
+      "LaunchAndInjectionEvent/1",
+      "Agent/2",
+      "OccursDuringMonth/2",
+      "ParkingOrbit/1",
+      "Targeted/1",
+      "DeliveredInto/2",
+      "DeliveredBy/2",
+      "CoastPhase/1",
+      "Short/1",
+      "After/2",
+      "InjectionEvent/1",
+      "CausedBy/2",
+      "IntoTrajectory/2",
+      "CruisePhase/1",
+      "DurationMonthsApprox/2",
+      "StartsWith/2",
+      "InConfiguration/2",
+      "EndsAtOffsetBefore/4",
+      "Checkout/1",
+      "Calibration/1",
+      "IncludesActivity/2",
+      "DailyMonitoring/1",
+      "NavigationActivities/1",
+      "TCM/1",
+      "LargestTCM/1",
+      "PerformedAfterDays/3"
+    ],
+    "constants": {
+      "entities": [
+        "MROMission",
+        "MROSpacecraft",
+        "NASA_KSC",
+        "NLSContract",
+        "CompetitiveProcurement",
+        "AtlasCommonCoreBooster",
+        "CentaurUpperStage",
+        "CentaurMainEngine",
+        "PrecisePointingAndControl",
+        "CoastAndPoweredFlight",
+        "AtlasBoostPhase",
+        "SafeStableConfiguration",
+        "DSNInitialAcquisition",
+        "MOIManeuver",
+        "InterplanetaryTransferTrajectory",
+        "CentaurRestart",
+        "LaunchEvent_MRO"
+      ],
+      "date_literals": [
+        "2005-08"
+      ],
+      "numbers": [
+        3,
+        4.2,
+        12.2,
+        5,
+        2,
+        15
+      ]
+    },
+    "ref": "https://pds-imaging.jpl.nasa.gov/portal/mro_mission.html"
+  },
+  "8": {
+    "nl": "The driving theme of the Mars Exploration Program is to understand the role of water on Mars and its implications for possible past or current biological activity. The Mars Reconnaissance Orbiter (MRO) Project will pursue this 'Follow-the-Water' strategy by conducting remote sensing observations that return sets of globally distributed data that will: 1) advance our understanding of the current Mars climate, the processes that have formed and modified the surface of the planet, and the extent to which water has played a role in surface processes; 2) identify sites of possible aqueous activity indicating environments that may have been or are conducive to biological activity; and 3) thus identify and characterize sites for future landed missions.  The MRO payload is designed to conduct remote sensing science observations, identify and characterize sites for future landers, and provide critical telecom/navigation relay capability for follow-on missions. The mission will provide global, regional survey, and targeted observations from a low 255 km by 320 km Mars orbit with a 3:00 P.M. local mean solar time (ascending node). During the one Martian year (687 Earth days) primary science phase, the orbiter will acquire visual and near-infrared high-resolution images of the planet’s surface, monitor atmospheric weather and climate, and search the upper crust for evidence of water. After this science phase is completed, the orbiter will provide telecommunications support for spacecraft launched to Mars in the 2007 and 2009 opportunities. The primary mission will end on December 31, 2010, approximately 5.5 years after launch.",
+    "fol": "∃g ( ProgramGoal(g) ∧ PartOf(g,MarsExplorationProgram) ∧ Goal(g,UnderstandRoleOfWaterOnMars) ) ∧ ∃s ( Strategy(s) ∧ Name(s,FollowTheWater) ∧ PursuedBy(s,MRO_Project) ) ∧ ∃o ( RemoteSensingObservation(o) ∧ ConductedBy(o,MRO_Project) ) ∧ ∃d ( GlobalDistributedData(d) ∧ ReturnedBy(d,o) ) ∧ ∃p1 ∃p2 ∃p3 ( Objective(p1) ∧ Objective(p2) ∧ Objective(p3) ∧ AdvancesUnderstanding(p1,MarsClimate) ∧ AdvancesUnderstanding(p1,SurfaceProcesses) ∧ AdvancesUnderstanding(p1,RoleOfWater) ∧ Identifies(p2,AqueousActivitySites) ∧ Characterizes(p3,FutureLandingSites) ) ∧ ∃m ( Payload(m) ∧ PartOf(m,MRO) ∧ Supports(m,RemoteSensingScience) ∧ Supports(m,FutureLanderSiteCharacterization) ∧ Supports(m,TelecomNavigationRelay) ) ∧ ∃o1 ( MarsOrbit(o1) ∧ AltitudeKm(o1,255,320) ∧ LocalMeanSolarTime(o1,'15:00') ) ∧ ∃p ( PrimarySciencePhase(p) ∧ DurationEarthDays(p,687) ) ∧ ∃a ( ImageAcquisition(a) ∧ During(a,p) ∧ Modality(a,VisualNearInfrared) ) ∧ ∃w ( AtmosphericMonitoring(w) ∧ During(w,p) ) ∧ ∃u ( UpperCrustSearch(u) ∧ During(u,p) ∧ EvidenceOf(u,Water) ) ∧ ∃t ( TelecomSupport(t) ∧ After(t,p) ∧ Supports(t,MarsMissions2007_2009) ) ∧ ∃e ( MissionEnd(e) ∧ DateUTC(e,'2010-12-31') ∧ AfterYearsApprox(e,Launch,5.5) )",
+    "predicates": [
+      "ProgramGoal/1",
+      "PartOf/2",
+      "Goal/2",
+      "Strategy/1",
+      "Name/2",
+      "PursuedBy/2",
+      "RemoteSensingObservation/1",
+      "ConductedBy/2",
+      "GlobalDistributedData/1",
+      "ReturnedBy/2",
+      "Objective/1",
+      "AdvancesUnderstanding/2",
+      "Identifies/2",
+      "Characterizes/2",
+      "Payload/1",
+      "Supports/2",
+      "MarsOrbit/1",
+      "AltitudeKm/3",
+      "LocalMeanSolarTime/2",
+      "PrimarySciencePhase/1",
+      "DurationEarthDays/2",
+      "ImageAcquisition/1",
+      "During/2",
+      "Modality/2",
+      "AtmosphericMonitoring/1",
+      "UpperCrustSearch/1",
+      "EvidenceOf/2",
+      "TelecomSupport/1",
+      "After/2",
+      "MissionEnd/1",
+      "DateUTC/2",
+      "AfterYearsApprox/3"
+    ],
+    "constants": {
+      "entities": [
+        "MarsExplorationProgram",
+        "UnderstandRoleOfWaterOnMars",
+        "MRO_Project",
+        "FollowTheWater",
+        "MRO",
+        "MarsClimate",
+        "SurfaceProcesses",
+        "RoleOfWater",
+        "AqueousActivitySites",
+        "FutureLandingSites",
+        "RemoteSensingScience",
+        "FutureLanderSiteCharacterization",
+        "TelecomNavigationRelay",
+        "VisualNearInfrared",
+        "Water",
+        "MarsMissions2007_2009",
+        "Launch"
+      ],
+      "date_literals": [
+        "2010-12-31"
+      ],
+      "time_literals": [
+        "15:00"
+      ],
+      "numbers": [
+        255,
+        320,
+        687,
+        5.5
+      ]
+    },
+    "ref": "https://pds-imaging.jpl.nasa.gov/portal/mro_mission.html"
+  },
+  "9": {
+    "nl": "The Mars Reconnaissance Orbiter Mission, Aerobraking Phase: One week after MOI, aerobraking operations commenced.  During  this time period, the orbiter used aerobraking techniques to  supplement its onboard propulsive capability and to reduce its  orbit period to that necessary for the primary science orbit  (PSO).  Aerobraking consisted of 4 distinct phases: a walk-in  phase, a main phase, a walkout phase and a transition to the  PSO.  During the walk-in phase, the spacecraft established  initial contact with the atmosphere as the periapsis altitude of  the orbit was slowly lowered.  This phase continued until the  dynamic pressures and heating rate values required for main  phase, or steady state aerobraking, were established.  During  main phase, large scale orbit period reduction occurred as the  orbiter was guided to dynamic pressure limits.  Main phase  continued until the orbit lifetime of the orbiter reached 2  days.  (Orbit lifetime is defined as the time it takes the  apoapsis altitude of the orbit to decay to an altitude of  300km.)  When the orbit lifetime of the orbiter reached 2 days,  the aerobraking walkout phase began.  During the walkout phase,  the periapsis altitude of the orbit was slowly increased as the  2 day orbit lifetime of the orbiter was maintained.  Once the  orbit of the orbiter reached an apoapsis altitude of 450km, the  orbiter terminated aerobraking by propulsively raising the  periapsis of its orbit out of the atmosphere.   Because the PSO had nodal orientation requirements, the  aerobraking  phase of the MRO mission had to proceed in a  timely manner and be completed near the time the desired nodal  geometry was achieved. After approximately 4.5 months of  aerobraking, the dynamic pressure control limits were reset such  that the orbiter will fly to the desired 3:00 pm LMST nodal  target.   Once the orbit apoapsis altitude was reduced to 450 km, the  orbiter terminated aerobraking by raising periapsis to a safe  altitude and begin a transition to the Primary Science Phase.  The aerobraking phase was concluded on 30 August 2006, during  the spacecraft's",
+    "fol": "∃ab ( AerobrakingPhase(ab) ∧ PartOf(ab,MRO_Mission) ∧ CommencesAfterWeeksApprox(ab,MOI,1) ) ∧ ∃u ( AerobrakingUse(u) ∧ Agent(u,MRO_Orbiter) ∧ During(u,ab) ∧ Supplements(u,OnboardPropulsiveCapability) ∧ ReducesTo(u,OrbitPeriodRequiredForPSO) ) ∧ ∃w1 ∃m ∃w2 ∃tr ( WalkInPhase(w1) ∧ MainPhase(m) ∧ WalkOutPhase(w2) ∧ TransitionToPSO(tr) ∧ SubphaseOf(w1,ab) ∧ SubphaseOf(m,ab) ∧ SubphaseOf(w2,ab) ∧ SubphaseOf(tr,ab) ) ∧ ∃ic ( AtmosphereContactEvent(ic) ∧ Agent(ic,MRO_Orbiter) ∧ During(ic,w1) ∧ Established(ic) ∧ PeriapsisLoweredSlowly(ic) ) ∧ ∃ss ( SteadyStateEstablished(ss) ∧ During(ss,w1) ∧ Requires(ss,DynamicPressureValuesForMainPhase) ∧ Requires(ss,HeatingRateValuesForMainPhase) ) ∧ ∃opr ( OrbitPeriodReduction(opr) ∧ During(opr,m) ∧ LargeScale(opr) ∧ GuidedTo(opr,DynamicPressureLimits) ) ∧ ∃lt ( OrbitLifetime(lt) ∧ Agent(lt,MRO_Orbiter) ∧ ReachesDays(lt,2) ∧ Until(m,lt) ) ∧ ∃def ( Definition(def) ∧ Defines(def,OrbitLifetime) ∧ TimeToDecayApoapsisToKm(def,300) ) ∧ BeginsWhen(w2,lt) ∧ ∃inc ( PeriapsisIncreaseEvent(inc) ∧ During(inc,w2) ∧ IncreasedSlowly(inc) ∧ MaintainsOrbitLifetimeDays(inc,2) ) ∧ ∃apo450 ( ApoapsisAltitudeReached(apo450) ∧ Agent(apo450,MRO_Orbiter) ∧ AltitudeKm(apo450,450) ) ∧ ∃term ( AerobrakingTermination(term) ∧ Agent(term,MRO_Orbiter) ∧ When(term,apo450) ∧ By(term,PropulsivePeriapsisRaiseOutOfAtmosphere) ) ∧ ∃nod ( NodalOrientationRequirement(nod) ∧ For(nod,PSO) ) ∧ ∃tim ( TimelyCompletionRequirement(tim) ∧ AppliesTo(tim,ab) ∧ CompletedNear(tim,DesiredNodalGeometryAchieved) ) ∧ ∃reset ( DynamicPressureControlLimitsReset(reset) ∧ AfterMonthsApprox(reset,ab,4.5) ∧ Purpose(reset,FlyToLMSTNodalTarget_1500) ) ∧ ∃safe ( PeriapsisRaisedToSafeAltitude(safe) ∧ Agent(safe,MRO_Orbiter) ∧ When(safe,apo450) ) ∧ ∃beg ( TransitionToPrimarySciencePhaseBegin(beg) ∧ Agent(beg,MRO_Orbiter) ∧ After(beg,safe) ) ∧ ∃end ( PhaseConcluded(end) ∧ Phase(end,ab) ∧ DateUTC(end,'2006-08-30') )",
+    "predicates": [
+      "AerobrakingPhase/1",
+      "PartOf/2",
+      "CommencesAfterWeeksApprox/3",
+      "AerobrakingUse/1",
+      "Agent/2",
+      "During/2",
+      "Supplements/2",
+      "ReducesTo/2",
+      "WalkInPhase/1",
+      "MainPhase/1",
+      "WalkOutPhase/1",
+      "TransitionToPSO/1",
+      "SubphaseOf/2",
+      "AtmosphereContactEvent/1",
+      "Established/1",
+      "PeriapsisLoweredSlowly/1",
+      "SteadyStateEstablished/1",
+      "Requires/2",
+      "OrbitPeriodReduction/1",
+      "LargeScale/1",
+      "GuidedTo/2",
+      "OrbitLifetime/1",
+      "ReachesDays/2",
+      "Until/2",
+      "Definition/1",
+      "Defines/2",
+      "TimeToDecayApoapsisToKm/2",
+      "BeginsWhen/2",
+      "PeriapsisIncreaseEvent/1",
+      "IncreasedSlowly/1",
+      "MaintainsOrbitLifetimeDays/2",
+      "ApoapsisAltitudeReached/1",
+      "AltitudeKm/2",
+      "AerobrakingTermination/1",
+      "When/2",
+      "By/2",
+      "NodalOrientationRequirement/1",
+      "For/2",
+      "TimelyCompletionRequirement/1",
+      "AppliesTo/2",
+      "CompletedNear/2",
+      "DynamicPressureControlLimitsReset/1",
+      "AfterMonthsApprox/3",
+      "Purpose/2",
+      "PeriapsisRaisedToSafeAltitude/1",
+      "TransitionToPrimarySciencePhaseBegin/1",
+      "After/2",
+      "PhaseConcluded/1",
+      "Phase/2",
+      "DateUTC/2"
+    ],
+    "constants": {
+      "entities": [
+        "MRO_Mission",
+        "MRO_Orbiter",
+        "MOI",
+        "PSO",
+        "OnboardPropulsiveCapability",
+        "DynamicPressureValuesForMainPhase",
+        "HeatingRateValuesForMainPhase",
+        "DynamicPressureLimits",
+        "OrbitLifetime",
+        "PropulsivePeriapsisRaiseOutOfAtmosphere",
+        "DesiredNodalGeometryAchieved",
+        "FlyToLMSTNodalTarget_1500"
+      ],
+      "date_literals": [
+        "2006-08-30"
+      ],
+      "time_literals": [
+        "15:00"
+      ],
+      "numbers": [
+        1,
+        4,
+        2,
+        300,
+        450,
+        4.5
+      ]
+    },
+    "ref": "https://pds-imaging.jpl.nasa.gov/portal/mro_mission.html"
+  },
+  "10": {
+    "nl": "The Mars Reconnaissance Orbiter Mission, Cruise and Approach phases: Duration: About five months. The cruise phase extended from DSN  initial acquisition, in a safe and stable configuration, until  two months prior to the Mars Orbit Insertion (MOI) maneuver.  Primary activities during cruise included spacecraft and payload  checkout and calibration.  These activities, along with daily  monitoring of orbiter subsystems, were performed in order to  fully characterize the performance of the spacecraft and its  payload prior to arrival at Mars.  In addition, standard  navigation activities were performed during this flight phase,  the first being the largest TCM performed fifteen days after  launch.   Mission Phase Start Time : 2005-08-12  Mission Phase Stop Time  : 2006-01-10  APPROACH AND ORBIT INSERTION ----------------------------  This phase extended from two months prior to Mars Orbit  Insertion (MOI), through MOI, and until the orbiter was checked  out and ready to begin aerobraking. The orbiter was inserted  into a nearly polar orbit with a period of 35 hours.   During the last sixty days of the interplanetary transit,  spacecraft  and ground activities were focused on the  events necessary for a successful arrival and safe capture at  Mars. Navigation techniques included the use of delta-DOR  measurements in the orbit determination. This technique yielded  a precise determination of the inbound trajectory with a series  of final TCMs used to control the flight path of the spacecraft  up to the MOI maneuver.   Also during the approach phase, MRO performed the Optical  Navigation experiment.  This involved pointing the optical  navigation camera (ONC) at the moons of Mars - Phobos and  Deimos, and tracking their motion. By comparing the observed  position of the moons to their predicted positions, relative to  the background stars, the ground was able to accurately  determine the position of the orbiter.   Upon arrival at Mars on March 10, 2006, the spacecraft performed  its  MOI maneuver using its six main engines.  MOI inserted  the spacecraft into an initial, highly elliptical capture orbit.  The delta-V required to accomplish this critical maneuver was  1015 m/s and took about 26 minutes to complete. For most of the  burn, the orbiter was visible from the DSN stations.  The signal  was occulted as the orbiter went behind Mars, and appeared again  a short time later. The reference MRO capture orbit had a period  of 35 hours and a periapsis altitude of 300km.  The orientation  of the ascending node was 8:30 PM LMST.  The capture orbit was  been selected such that aerobraking would be completed prior to  the start of solar conjunction (September 23, 2006).",
+    "fol": "∃p1 ∃p2 ( MissionPhase(p1) ∧ MissionPhase(p2) ∧ Name(p1,CruisePhase) ∧ Name(p2,ApproachOrbitInsertionPhase) ∧ PartOf(p1,MRO) ∧ PartOf(p2,MRO) ) ∧ ∃a ( DSNAcquisition(a) ∧ Agent(a,MRO) ∧ Starts(p1,a) ) ∧ TwoMonthsPrior(p1,MarsOrbitInsertion) ∧ ∃t ( PhaseStart(p1,'2005-08-12') ∧ PhaseStop(p1,'2006-01-10') ) ∧ ∃c ( CheckoutCalibration(c) ∧ During(c,p1) ) ∧ ∃m ( DailySubsystemMonitoring(m) ∧ During(m,p1) ) ∧ ∃n ( NavigationActivity(n) ∧ During(n,p1) ) ∧ ∃tcm1 ( TrajectoryCorrectionManeuver(tcm1) ∧ Largest(tcm1) ∧ AfterDays(tcm1,Launch,15) ) ∧ StartsTwoMonthsPrior(p2,MarsOrbitInsertion) ∧ Through(p2,MarsOrbitInsertion) ∧ EndsWhenReady(p2,Aerobraking) ∧ ∃o ( OrbitInsertion(o) ∧ Agent(o,MRO) ∧ ResultsIn(o,NearlyPolarOrbit_35hr) ) ∧ ∃d ( DeltaDORMeasurement(d) ∧ UsedFor(d,OrbitDetermination) ) ∧ ∃tcmf ( FinalTCMs(tcmf) ∧ Controls(tcmf,FlightPath) ∧ Until(tcmf,MarsOrbitInsertion) ) ∧ ∃on ( OpticalNavigationExperiment(on) ∧ Agent(on,MRO) ) ∧ ∃cam ( Uses(on,ONC) ∧ Targets(cam,Phobos) ∧ Targets(cam,Deimos) ) ∧ ∃moi ( MarsOrbitInsertion(moi) ∧ Agent(moi,MRO) ∧ Date(moi,'2006-03-10') ∧ UsesEngines(moi,6) ∧ DeltaV(moi,1015) ∧ DurationMinutesApprox(moi,26) ∧ ResultsIn(moi,HighlyEllipticalCaptureOrbit) ) ∧ ∃ref ( ReferenceCaptureOrbit(ref) ∧ PeriodHours(ref,35) ∧ PeriapsisKm(ref,300) ∧ AscendingNodeLMST(ref,'20:30') ) ∧ SelectedFor(ref,AerobrakingBeforeSolarConjunction_2006_09_23)",
+    "predicates": [
+      "MissionPhase/1",
+      "Name/2",
+      "PartOf/2",
+      "DSNAcquisition/1",
+      "Agent/2",
+      "Starts/2",
+      "TwoMonthsPrior/2",
+      "PhaseStart/2",
+      "PhaseStop/2",
+      "CheckoutCalibration/1",
+      "During/2",
+      "DailySubsystemMonitoring/1",
+      "NavigationActivity/1",
+      "TrajectoryCorrectionManeuver/1",
+      "Largest/1",
+      "AfterDays/3",
+      "StartsTwoMonthsPrior/2",
+      "Through/2",
+      "EndsWhenReady/2",
+      "OrbitInsertion/1",
+      "ResultsIn/2",
+      "DeltaDORMeasurement/1",
+      "UsedFor/2",
+      "FinalTCMs/1",
+      "Controls/2",
+      "Until/2",
+      "OpticalNavigationExperiment/1",
+      "Uses/2",
+      "Targets/2",
+      "MarsOrbitInsertion/1",
+      "UsesEngines/2",
+      "DeltaV/2",
+      "DurationMinutesApprox/2",
+      "ReferenceCaptureOrbit/1",
+      "PeriodHours/2",
+      "PeriapsisKm/2",
+      "AscendingNodeLMST/2",
+      "SelectedFor/2"
+    ],
+    "constants": {
+      "entities": [
+        "MRO",
+        "CruisePhase",
+        "ApproachOrbitInsertionPhase",
+        "MarsOrbitInsertion",
+        "Launch",
+        "NearlyPolarOrbit_35hr",
+        "ONC",
+        "Phobos",
+        "Deimos",
+        "HighlyEllipticalCaptureOrbit",
+        "Aerobraking",
+        "AerobrakingBeforeSolarConjunction_2006_09_23"
+      ],
+      "date_literals": [
+        "2005-08-12",
+        "2006-01-10",
+        "2006-03-10"
+      ],
+      "time_literals": [
+        "20:30"
+      ],
+      "numbers": [
+        15,
+        35,
+        1015,
+        26,
+        300,
+        6
+      ]
+    }
+  },
+  "ref": "https://pds-imaging.jpl.nasa.gov/portal/mro_mission.html"
+}
