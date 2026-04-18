@@ -2,6 +2,7 @@
 Running: direct_llm | Model: Qwen/Qwen1.5-1.8B-Chat | Seed: 42
 
 ================================================================================
+
 NL Mission ID: 0
 
 1. Spirit (MER-2 hardware) is a type of rocket that was launched on June 10, 2003, at Cape Canaveral Air Force Station, Florida.
@@ -17,6 +18,7 @@ NL Mission ID: 0
 NL Mission ID: 1
 
 
+
 1. Opportunity (MER-1 hardware) is a launch vehicle.
 2. Opportunity (MER-1 hardware) was launched on July 8, 2003, at 0318 UTC (July 7, 2003, 2318 EDT).
 3. Opportunity (MER-1 hardware) was launched from launch complex 17B at Cape Canaveral Air Force Station, Florida.
@@ -25,7 +27,9 @@ NL Mission ID: 1
 6. The boost portion of the launch vehicle trajectory was followed by a long coast phase of approximately 60 minutes in a parking orbit.
 7. After third stage burnout, the upper stage despun the stack using a yo-yo despin system.
 8. Separation of the third stage occurred approximately 83 minutes after launch.
+
 NL Mission ID: 2
+
 
 ```prolog
 the = true
@@ -86,6 +90,7 @@ fol.extend([four_lunar_burns])
 
 print(fol)
 ```
+
 NL Mission ID: 3
 
 
@@ -120,6 +125,7 @@ duration of outer cruise phase -> L Launch
 791 days -> L Launch
 2 years -> L Launch
 ```
+
 NL Mission ID: 4
 
 
@@ -138,6 +144,7 @@ contingency_delayed_execution = "a contingency delayed execution"
 impact_into_jupiter = "Impact into Jupiter"
 end_of_mission = "End of Mission"
 ```
+
 NL Mission ID: 5
 
 
@@ -184,6 +191,7 @@ PRM maneuver:
   - Begins at PRM-5.25d, when instruments are off in preparation for the PRM maneuver
   - Continues until the end of the PRM maneuver
 ```
+
 NL Mission ID: 6
 
 
@@ -339,6 +347,7 @@ The FOL formula represents the logical structure of the given natural language s
                        - The first being the largest TCM performed fifteen days after launch
 
 5. Goal: Mars Orbit Insert
+
 NL Mission ID: 8
 
 
@@ -350,6 +359,7 @@ During the primary science phase of the mission, the orbiter will acquire visual
 After the primary science phase is completed, the orbiter will provide telecommunications support for spacecraft launched to Mars in the 2007 and 2009 opportunities.
 The primary mission will end on December 31, 2010, approximately 5.5 years after launch.
 ```
+
 NL Mission ID: 9
 
 
@@ -363,6 +373,7 @@ NL Mission ID: 9
 8. (Aerobraking) → (EndOfAerobraking)
 18:15:42 [INFO] nl2logics.runner: Checkpoint saved: results/Qwen_Qwen1.5-1.8B-Chat/direct_llm/seed_42/results.csv                                   
 18:15:42 [INFO] nl2logics.runner: Detailed outputs saved: results/Qwen_Qwen1.5-1.8B-Chat/direct_llm/seed_42/detailed_outputs.csv              
+
 NL Mission ID: 10
       
 
@@ -437,6 +448,7 @@ approach_and_orbit_insertion(MDI
 ================================================================================
 Running: direct_llm | Model: mistralai/Mistral-7B-Instruct-v0.3 | Seed: 42
 ================================================================================
+
 NL Mission ID: 0
 
 1. Launched(Spirit, June 10, 2003, 1759 UTC)
@@ -453,6 +465,7 @@ NL Mission ID: 0
 12. Third_stage_separation(Spirit)
 
 
+
 NL Mission ID: 1
 
 1. Launched(Opportunity(MER-1 hardware), July 8, 2003)
@@ -467,6 +480,7 @@ NL Mission ID: 1
 10. Duration(ThirdStageBurnout(Launched(Opportunity(MER-1 hardware))), approximately 83 minutes)
 11. Uses(ThirdStageBurnout(Launched(Opportunity(MER-1 hardware))), yo-yo despin system)
 12. After(ThirdStageBurnout(Launched(Opportunity(MER-1 hardware))), Separation(Launched(Opportunity(MER-1 hardware))))
+
 NL Mission ID: 2
 
 
@@ -488,6 +502,7 @@ NL Mission ID: 2
 15. Lunar_Orbit_Insertion_maneuver → (500 x 7500 km)
 16. Later_circularized_to_100 x 100 km → Four_lunar_burns
 17. Lunar_Orbit → (100 x 100 km)
+
 NL Mission ID: 3
 
 
@@ -728,7 +743,7 @@ NL Mission ID: 10
 ================================================================================
 Running: direct_llm | Model: microsoft/Phi-3-mini-4k-instruct | Seed: 42
 
-================================================================================
+
 NL Mission ID: 0
 
 1. ∃x (Hardware(x) ∧ Launched(x, "MER-2", "2003-06-10T17:59:00Z", "1359 EDT", "1759 UTC", "1759 UTC", "1359 EDT", "Cape Canaveral Air Force Station", "Florida", "17A"))
@@ -1154,7 +1169,6 @@ NL Mission ID: 1
 
 NL Sentences: The first launch of the Delta II rocket was on July 14, 1989. The launch was from Vandenberg Air Force Base, California. The launch was at 23:38 UTC on July 13, 1989. The launch was at 6:38 PM EDT on July 13, 1989. The launch vehicle was a Delta II 6920. The launch vehicle was a Delta II 6925. The launch vehicle was a Delta II 6926. The launch vehicle was a Delta II 6927. The launch vehicle was a Delta II 6928. The launch vehicle was a Delta II 6929. The launch vehicle was a Delta II 6930. The launch vehicle was a Delta II 6931. The launch vehicle was a Delta II 6932. The launch vehicle was a Delta II 6933. The launch vehicle was a Delta II 6934. The launch vehicle was a Delta II 6935. The launch vehicle was a Delta II 6936. The launch vehicle was a Delta II 6937. The launch vehicle was a Delta II 6938. The launch vehicle was a Delta II 6939. The launch vehicle was a Delta II 6940. The launch vehicle was a Delta II 6941. The launch vehicle was a Delta II 6942. The launch vehicle was a Delta II 6943. The launch vehicle was a Delta II 6944. The launch vehicle was a Delta II 6945. The launch vehicle was a Delta II 6946. The launch vehicle was a Delta II 6947. The launch vehicle was a Delta II 6948. The launch vehicle was a Delta II 6949. The launch vehicle was a Delta II 6950. The launch vehicle was a Delta II 6951. The launch vehicle was a Delta II 6952. The launch vehicle was a Delta II 6953. The launch vehicle was a Delta II 6954. The launch vehicle was a Delta II 6955. The launch vehicle was a Delta II 6956. The launch vehicle was a Delta II 6957. The launch vehicle was a Delta II 6958. The launch vehicle was a Delta II 6959. The launch vehicle was a Delta II 6960. The launch vehicle was a Delta II 6961. The launch vehicle was a Delta II 6962. The launch vehicle was a Delta II 6963. The launch vehicle was a Delta II 6964. The launch vehicle was a Delta II 6965. The launch vehicle was a Delta II 6966. The launch vehicle was a Delta II 6967. The launch vehicle was a Delta II 6968. The launch vehicle was a Delta II 6969. The launch vehicle was a Delta II 6970. The launch vehicle was a Delta II 6971. The launch vehicle was a Delta II 6972. The launch vehicle was a Delta II 6973. The launch vehicle was a Delta II 6974. The launch vehicle was a Delta II 6975. The launch vehicle was a Delta II 6976. The launch vehicle was a Delta II 6977. The launch vehicle was a Delta II 6978. The launch vehicle was a Delta II 6979. The launch vehicle was a Delta II 6980. The launch vehicle was a Delta II 6981. The launch vehicle was a Delta II 6982. The launch vehicle was a Delta II 6983. The launch vehicle was a Delta II 6984. The launch vehicle was a Delta II 6985. The launch vehicle was a Delta II 6986. The launch vehicle was a Delta II 6987. The launch vehicle was a Delta II 6988. The launch vehicle was a Delta II 6989. The launch vehicle was a Delta II 6990. The launch vehicle was a Delta II 6991. The launch vehicle was a Delta II 6992. The launch vehicle was a Delta II 6993. The launch vehicle was a Delta II
 
-
 NL Mission ID: 2
 
 
@@ -1250,12 +1264,6 @@ NL Sentences: The mean burn deltaV of 77 m/s is the largest maneuver of the miss
 
 FOL: ∃x (Burn(x) ∧ LargestManeuver(x) ∧ After(x, 4MainEngineManeuvers(x)) ∧ PlannedOnRCS(x)) 
 
-
-
-
-
-NL
-
 NL Mission ID: 5
 
 
@@ -1292,7 +1300,6 @@ NL Mission ID: 5
 NL Mission ID: 6
 
 
-
 1. ∃x (LaunchPhase(x) ∧ Began(x, LiftOff) ∧ Lasted(x, 90, PayloadSeparation))
 2. ∃x (Payload(x) ∧ AchievedTrajectory(x, TransLunar))
 3. ∃x (EarlyCruisePhase(x) ∧ Began(x, PayloadSeparation) ∧ Lasted(x, 90, ObservingMode))
@@ -1318,7 +1325,6 @@ NL Mission ID: 6
 NL Mission ID: 7
 
 
-
 ∃x (LaunchVehicle(x) ∧ Baseline(x, MRO) ∧ Type(x, AtlasV401))
 ∃x (LaunchVehicle(x) ∧ SelectedBy(x, NASA_KSC) ∧ Contract(x, NLS))
 ∃x (LaunchVehicle(x) ∧ Type(x, AtlasV401) ∧ Stage(x, TwoStage))
@@ -1341,7 +1347,6 @@ NL Mission ID: 7
 ∃x (Phase(x, Cruise) ∧ Activity(x, TCM)) ∧ Time(x, FifteenDaysAfterLaunch)) ∧ Largest(x)) FOL: ∃x (LaunchVehicle(x) ∧ Baseline(x, MRO) ∧ Type(x, AtlasV401)) ∃x (LaunchVehicle(x) ∧ SelectedBy(x, NASA_KSC) ∧ Contract(x, NLS)) ∃x (LaunchVehicle(x) ∧ Type(x, AtlasV401) ∧ Stage(x, TwoStage)) ∃x (LaunchVehicle(x) ∧ Type(x, AtlasV401) ∧ Component(x, AtlasCommonCoreBooster)) ∃x (LaunchVehicle(x) ∧ Type(x, AtlasV401) ∧ Component(x, CentaurUpperStage)) ∃x (LaunchVehicle(x) ∧ Type(x, CentaurUpperStage) ∧ Restartable(x)) ∃x (LaunchVehicle(x) ∧ Type(x, CentaurUpperStage) ∧ Stabilized(x, 3Axis)) ∃x (LaunchVehicle(x) ∧ Type(x, AtlasV401) ∧ Component(x, PayloadFairing)) ∃x (LaunchVehicle(x) ∧ Type(x, PayloadFairing) ∧ Diameter(x, 4.2)) ∃x (LaunchVehicle(x) ∧ Type(x, PayloadFairing) ∧ Length(x, 12.2)) ∃x (Launch(x, MRO, August2005) ∧ Type(x, MarsOpportunity)) ∃x (LaunchVehicle(x) ∧ Type(x, AtlasV401) ∧ Stage(x, TwoStage) ∧ Injected(x, MRO, ParkingOrbit)) ∃x (LaunchVehicle(x) ∧ Type(x, AtlasV401) ∧ Stage(x, TwoStage) ∧ Injected(x, MRO, InterplanetaryTrajectory)) ∃x (Duration(x, FiveMonths)) ∃x (Phase(x, Cruise) ∧ Start(x, DSNInitialAcquisition) ∧ End(x, TwoMonthsPriorToMOI)) ∃x (Phase(x, Cruise) ∧ Activity(x, SpacecraftCheckout)) ∃x (Phase(x, Cruise) ∧ Activity(x, PayloadCalibration)) ∃x (Phase(x, Cruise) ∧ Activity(x, DailyMonitoring)) ∃x (Phase(x, Cruise) ∧ Activity(x, Navigation)) ∃x (Phase(x, Cruise) ∧ Activity(x, TCM) ∧ Time(x, FifteenDaysAfterLaunch) ∧ Largest(x)) ∃x (LaunchVehicle(x) ∧ Baseline(x, MRO) ∧ Type(x, AtlasV401)) ∃x (LaunchVehicle(x) ∧ SelectedBy(x, NASA_KSC) ∧ Contract(x, NLS)) �
 
 NL Mission ID: 8
-
 
 
 1. ∃x (Theme(x) ∧ Role(x, water) ∧ Implication(x, biological_activity))
@@ -1372,6 +1377,7 @@ NL Mission ID: 10
 ================================================================================
 Running: direct_llm | Model: google/gemma-2-9b-it | Seed: 42
 ================================================================================
+
 NL Mission ID: 0
 
 
@@ -1426,6 +1432,7 @@ NL Mission ID: 4
 (DeltaV ∧ MeanBurnDeltaV(77m/s) ∧ LargestManeuver ∧ RCSThrusters ∧ ELA(70degrees))
 (TimingNotCritical ∧ ContingencyDelayedExecution ∧ SeveralDaysAroundApojove)
 (ImpactIntoJupiter ∧ EndOfMission)
+
 NL Mission ID: 5
 
 
@@ -1481,14 +1488,16 @@ NL Mission ID: 7
 (activity(daily_monitoring))
 (activity(navigation))
 (TCM(15_days_after_launch))
-NL Mission ID: 7
-
 
 NL Mission ID: 8
 
 
+
 NL Mission ID: 9
 
+
+
 NL Mission ID: 10
+
 
 
