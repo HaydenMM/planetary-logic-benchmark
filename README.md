@@ -1,4 +1,4 @@
-# PMR: Planetary Mission Rules Dataset
+# PLB: Planetary Logic Benchmark
 
 
 Planetary Logic Benchmark (PLB) is a curated dataset of natural language mission documentation drawn from publicly available NASA and ESA Planetary Data System (PDS) archives. The dataset is designed to support research on interpretable, verifiable AI systems for translating mission-relevant natural language into structured logical representations.
