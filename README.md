@@ -1,8 +1,9 @@
 # PMR: Planetary Mission Rules Dataset
 
-PMR (Planetary Mission Rules) is a curated dataset of natural language mission documentation drawn from publicly available NASA and ESA Planetary Data System (PDS) archives. The dataset is designed to support research on interpretable, verifiable AI systems for translating mission-relevant natural language into structured logical representations.
 
-PMR focuses on rule-like statements describing mission phases, operational constraints, safety conditions, and system dependencies commonly found in planetary mission documentation.
+Planetary Logic Benchmark (PLB) is a curated dataset of natural language mission documentation drawn from publicly available NASA and ESA Planetary Data System (PDS) archives. The dataset is designed to support research on interpretable, verifiable AI systems for translating mission-relevant natural language into structured logical representations.
+
+PLB focuses on rule-like statements describing mission phases, operational constraints, safety conditions, and system dependencies commonly found in planetary mission documentation.
 
 
 ## Dataset 
@@ -23,5 +24,6 @@ All source materials are non-sensitive and publicly accessible.
 
 ## Intended Use
 
-PMR is intended for research purposes
+
+planetary-logic-benchmark is intended for research purposes
 
